@@ -1,13 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://wardrobe-app-clothing-uploads.s3.us-west-2.amazonaws.com/crisp-paper-ruffles.png");
+  background-color: #baa0d2;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.test {
+  color: #f0ebfe;
+}
+
+.btn-add {
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.input-add {
+  margin-bottom: 15px !important;
+}
+
+.logo {
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
 }
